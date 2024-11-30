@@ -121,13 +121,13 @@ const App = () => {
   return (
     <main className='table-container flex flex-col gap-4 items-center justify-center max-w-[80vw] scroll-snap-x'>
       <div className='scroll-snap-align-start'>
-        <h1 className='m-12 text-9xl'>Combinations</h1>
+        <h1 className='m-12 text-9x underline'>Vigenère Table</h1>
         <Table cols={26} rows={26} word={inputValue} key={keyValue} />
       </div>
 
       <div className="Input">
 
-        <h1 className='mt-12'>Encrypted Message</h1>
+        <h1 className='mt-12 underline'>Encrypted Message</h1>
         <Input
           id="word"
           type="text"
@@ -138,7 +138,7 @@ const App = () => {
 
         <div className="b-white b-4 p-4 bg-[#3e3d3da0] rounded-lg">
 
-          <h1>Key</h1>
+          <h1 className='text-blue-200 underline'>❝Key❞</h1>
           <div className="flex justify-center m-8 gap-12 ">
 
             <label className='flex items-center text-3xl font-bold'>
@@ -149,7 +149,7 @@ const App = () => {
                 onChange={handleOptionChange}
                 className='mr-4 h-12 w-12'
               />
-              Guess Key
+              1 To 1 Mapping
             </label>
 
             <label className='flex items-center text-3xl font-bold'>
