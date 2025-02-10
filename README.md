@@ -1,3 +1,7 @@
+## ⚠️ Project Status: Early Beta
+
+> **Warning**: This project is in early development stages. Features may be incomplete or subject to change. Bugs and instability should be expected. Not recommended for production use yet.
+
 # Vigenère Cipher Cracker 🔓
 
 A React-based web application for decrypting messages encoded with the Vigenère cipher. The currently tool offers two decryption methods: direct key input, and Letter 1 to 1 Mapping, with letter frequency analysis and more to come in the future. 
@@ -22,11 +26,6 @@ Good question, got carried away solving a CTF, and decied to **make my own decry
 ![Vigenère Cipher Cracker Interface](./public/example1.png)
 ![Vigenère Cipher Cracker Interface](./public/example2.png)
 ![Vigenère Cipher Cracker Interface](./public/example3.png)
-
-## ⚠️ Project Status: Early Beta
-
-> **Warning**: This project is in early development stages. Features may be incomplete or subject to change. Bugs and instability should be expected. Not recommended for production use yet.
-
 
 ## Installation 🛠️
 
